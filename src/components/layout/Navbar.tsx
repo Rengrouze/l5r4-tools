@@ -1,3 +1,4 @@
+// src/components/layout/Navbar.tsx
 'use client';
 
 import Link from 'next/link';
@@ -7,7 +8,9 @@ import { locales } from '@/config/i18n';
 import LocaleSwitcher from './LocaleSwitcher';
 
 const Navbar = () => {
-    const t = useTranslations('navigation');
+    const t = useTranslations();
+    const appName = useTranslations('app');
+    const navT = useTranslations('navigation');
     const pathname = usePathname();
     const locale = useLocale();
 
@@ -22,15 +25,15 @@ const Navbar = () => {
                     <div className="flex">
                         <div className="flex-shrink-0 flex items-center">
                             <Link href="/" locale={locale} className="font-bold text-xl text-indigo-600">
-                                {t('app.title')}
+                                {appName('title')}
                             </Link>
                         </div>
                         <div className="ml-10 flex items-center space-x-4">
                             <Link href="/" locale={locale} className={`px-3 py-2 ${isActive('/')}`}>
-                                {t('home')}
+                                {navT('home')}
                             </Link>
                             <Link href="/config" locale={locale} className={`px-3 py-2 ${isActive('/config')}`}>
-                                {t('config')}
+                                {navT('config')}
                             </Link>
                         </div>
                     </div>
