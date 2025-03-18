@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "L5R Tools",
+    "subtitle": "Tools for Legend of the Five Rings"
+  },
+  "navigation": {
+    "home": "Home",
+    "config": "Character Config",
+    "tools": "Tools"
+  },
+  "home": {
+    "title": "Tools for Legend of the Five Rings",
+    "description": "A collection of useful tools for the Legend of the Five Rings 4th edition role-playing game. Configure your character and use our tools to enhance your gaming experience."
+  },
+  "tools": {
+    "diceCalculator": {
+      "name": "Dice Calculator",
+      "description": "Calculate success probabilities for your dice rolls in L5R 4th edition."
+    },
+    "characterSheet": {
+      "name": "Character Sheet",
+      "description": "Create and manage your digital character sheet."
+    }
+  },
+  "config": {
+    "title": "Character Configuration",
+    "generalInfo": "General Information",
+    "rings": "Rings",
+    "skills": "Main Skills",
+    "save": "Save",
+    "fields": {
+      "name": "Name",
+      "clan": "Clan",
+      "school": "School",
+      "earth": "Earth",
+      "air": "Air",
+      "fire": "Fire",
+      "water": "Water",
+      "void": "Void",
+      "kenjutsu": "Kenjutsu",
+      "iaijutsu": "Iaijutsu",
+      "knowledge": "Knowledge",
+      "etiquette": "Etiquette"
+    },
+    "clans": {
+      "crab": "Crab",
+      "crane": "Crane",
+      "dragon": "Dragon",
+      "lion": "Lion",
+      "mantis": "Mantis",
+      "phoenix": "Phoenix",
+      "scorpion": "Scorpion",
+      "unicorn": "Unicorn",
+      "other": "Other"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "disclaimer": "Legend of the Five Rings is the property of Edge Entertainment / Fantasy Flight Games."
+  }
+}

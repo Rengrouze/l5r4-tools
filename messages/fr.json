@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "Outils L5R",
+    "subtitle": "Outils pour Legend of the Five Rings"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "config": "Config. Personnage",
+    "tools": "Outils"
+  },
+  "home": {
+    "title": "Outils pour Legend of the Five Rings",
+    "description": "Une collection d'outils utiles pour le jeu de rôle Legend of the Five Rings 4e édition. Configurez votre personnage et utilisez nos outils pour améliorer votre expérience de jeu."
+  },
+  "tools": {
+    "diceCalculator": {
+      "name": "Calculateur de Dés",
+      "description": "Calculez les probabilités de réussite de vos jets de dés dans L5R 4e édition."
+    },
+    "characterSheet": {
+      "name": "Feuille de Personnage",
+      "description": "Créez et gérez votre feuille de personnage digitale."
+    }
+  },
+  "config": {
+    "title": "Configuration du Personnage",
+    "generalInfo": "Informations générales",
+    "rings": "Anneaux",
+    "skills": "Compétences principales",
+    "save": "Sauvegarder",
+    "fields": {
+      "name": "Nom",
+      "clan": "Clan",
+      "school": "École",
+      "earth": "Terre",
+      "air": "Air",
+      "fire": "Feu",
+      "water": "Eau",
+      "void": "Vide",
+      "kenjutsu": "Kenjutsu",
+      "iaijutsu": "Iaijutsu",
+      "knowledge": "Connaissance",
+      "etiquette": "Étiquette"
+    },
+    "clans": {
+      "crab": "Crabe",
+      "crane": "Grue",
+      "dragon": "Dragon",
+      "lion": "Lion",
+      "mantis": "Mante",
+      "phoenix": "Phénix",
+      "scorpion": "Scorpion",
+      "unicorn": "Licorne",
+      "other": "Autre"
+    }
+  },
+  "footer": {
+    "copyright": "Tous droits réservés.",
+    "disclaimer": "Legend of the Five Rings est la propriété de Edge Entertainment / Fantasy Flight Games."
+  }
+}
